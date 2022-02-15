@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="13.207">
+    <testcase classname="Application form Test" name="Select title MR from dropdown" time="3.828">
+        <system-out><![CDATA[Given I am on the Homepage..................................................passed
+And I click on My quote page Link...........................................passed
+Given The user is on the quote page.........................................passed
+When the dropdown is selected...............................................passed
+Then user can select the title MR...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application form Test" name="A invalid email address is entered" time="2.247">
+        <system-out><![CDATA[Given I am on the Homepage..................................................passed
+And I click on My quote page Link...........................................passed
+Given The user is on the quote page.........................................passed
+When an invalid email address "AAA@gmail.com" is entered....................passed
+When an invalid password "uysfyus" is entered...............................passed
+Then an error is displayed..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application form Test" name="A valid email address is entered" time="2.291">
+        <system-out><![CDATA[Given I am on the Homepage..................................................passed
+And I click on My quote page Link...........................................passed
+Given The user is on the quote page.........................................passed
+When a valid email address "mike11@gmail.com" entered.......................passed
+When a valid password "passw1234" is entered................................passed
+Then no error is displayed..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application form Test" name="Postcode lookup for valid postcode" time="2.253">
+        <system-out><![CDATA[Given I am on the Homepage..................................................passed
+And I click on My quote page Link...........................................passed
+Given The user is on the quote page.........................................passed
+When they complete the Your Details Section and enter a valid postcode "AA11 2AA" and clicks find address.passed
+Then a list of addresses is shown...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application form Test" name="Quote form completed" time="2.315">
+        <system-out><![CDATA[Given I am on the Homepage..................................................passed
+And I click on My quote page Link...........................................passed
+Given The user is on the quote page.........................................passed
+When I select dropdown button...............................................passed
+When I select the title MR..................................................passed
+When I enter Firstname "Mike" details.......................................passed
+And I enter Surname "Kenny" details.........................................passed
+And I enter email address "mike11@gmail.com" details........................passed
+And I confirm email address "mike11@gmail.com" details......................passed
+And I enter telephone "000000000" details...................................passed
+And I enter postcode "AA11 2AA" details.....................................passed
+And I click continue........................................................passed
+Then the summary page is displayed..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

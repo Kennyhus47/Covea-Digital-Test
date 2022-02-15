@@ -1,0 +1,602 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 59993400,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the Homepage",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 7467600,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I click on My quote page Link",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_on_my_quote_page_link()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "The user is on the quote page",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_user_is_on_the_quote_page()"
+      },
+      "keyword" : "Given "
+    } ]
+  }, {
+    "start_timestamp" : "2022-02-13T20:16:57.114Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 2877754200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.Browser_Setup()"
+      }
+    } ],
+    "line" : 8,
+    "name" : "Select title MR from dropdown",
+    "description" : "",
+    "id" : "application-form-test;select-title-mr-from-dropdown",
+    "after" : [ {
+      "result" : {
+        "duration" : 799001400,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.teardown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "the dropdown is selected",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_dropdown_is_selected()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "user can select the title MR",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.user_can_select_the_title_mr()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 7976200,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the Homepage",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 992400,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I click on My quote page Link",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_on_my_quote_page_link()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 495300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "The user is on the quote page",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_user_is_on_the_quote_page()"
+      },
+      "keyword" : "Given "
+    } ]
+  }, {
+    "start_timestamp" : "2022-02-13T20:17:00.983Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 1522152500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.Browser_Setup()"
+      }
+    } ],
+    "line" : 20,
+    "name" : "A invalid email address is entered",
+    "description" : "",
+    "id" : "application-form-test;a-invalid-email-address-is-entered;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 709263900,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.teardown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1960300,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "an invalid email address \"AAA@gmail.com\" is entered",
+      "match" : {
+        "arguments" : [ {
+          "val" : "AAA@gmail.com",
+          "offset" : 26
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.an_invalid_email_address_is_entered(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "an invalid password \"uysfyus\" is entered",
+      "match" : {
+        "arguments" : [ {
+          "val" : "uysfyus",
+          "offset" : 21
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.an_invalid_password_is_entered(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "an error is displayed",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.an_error_is_displayed()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@login"
+    } ]
+  }, {
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4296000,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the Homepage",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I click on My quote page Link",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_on_my_quote_page_link()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1019500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "The user is on the quote page",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_user_is_on_the_quote_page()"
+      },
+      "keyword" : "Given "
+    } ]
+  }, {
+    "start_timestamp" : "2022-02-13T20:17:03.250Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 1542627800,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.Browser_Setup()"
+      }
+    } ],
+    "line" : 30,
+    "name" : "A valid email address is entered",
+    "description" : "",
+    "id" : "application-form-test;a-valid-email-address-is-entered;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 734447200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.teardown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 24,
+      "name" : "a valid email address \"mike11@gmail.com\" entered",
+      "match" : {
+        "arguments" : [ {
+          "val" : "mike11@gmail.com",
+          "offset" : 23
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.a_valid_email_address_entered(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 25,
+      "name" : "a valid password \"passw1234\" is entered",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"passw1234\"",
+          "offset" : 17
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.a_valid_password_is_entered(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 26,
+      "name" : "no error is displayed",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.no_error_is_displayed()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@login"
+    } ]
+  }, {
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2682400,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the Homepage",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I click on My quote page Link",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_on_my_quote_page_link()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "The user is on the quote page",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_user_is_on_the_quote_page()"
+      },
+      "keyword" : "Given "
+    } ]
+  }, {
+    "start_timestamp" : "2022-02-13T20:17:05.559Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 1525953300,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.Browser_Setup()"
+      }
+    } ],
+    "line" : 39,
+    "name" : "Postcode lookup for valid postcode",
+    "description" : "",
+    "id" : "application-form-test;postcode-lookup-for-valid-postcode;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 720495200,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.teardown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 34,
+      "name" : "they complete the Your Details Section and enter a valid postcode \"AA11 2AA\" and clicks find address",
+      "match" : {
+        "arguments" : [ {
+          "val" : "AA11 2AA",
+          "offset" : 67
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.they_complete_the_your_details_section_and_enter_a_valid_postcode_and_clicks_find_address(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 35,
+      "name" : "a list of addresses is shown",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.a_list_of_addresses_is_shown()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Address"
+    } ]
+  }, {
+    "line" : 3,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4024300,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the Homepage",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 704800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I click on My quote page Link",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_on_my_quote_page_link()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "The user is on the quote page",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_user_is_on_the_quote_page()"
+      },
+      "keyword" : "Given "
+    } ]
+  }, {
+    "start_timestamp" : "2022-02-13T20:17:07.832Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 1570943000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.Browser_Setup()"
+      }
+    } ],
+    "line" : 56,
+    "name" : "Quote form completed",
+    "description" : "",
+    "id" : "application-form-test;quote-form-completed;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 730777500,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.teardown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 43,
+      "name" : "I select dropdown button",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_select_dropdown_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 44,
+      "name" : "I select the title MR",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_select_the_title_mr()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 777500,
+        "status" : "passed"
+      },
+      "line" : 45,
+      "name" : "I enter Firstname \"Mike\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Mike",
+          "offset" : 19
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_enter_firstname_details(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 498500,
+        "status" : "passed"
+      },
+      "line" : 46,
+      "name" : "I enter Surname \"Kenny\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "Kenny",
+          "offset" : 17
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_enter_surname_details(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 47,
+      "name" : "I enter email address \"mike11@gmail.com\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "mike11@gmail.com",
+          "offset" : 23
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_enter_email_address_details(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 496200,
+        "status" : "passed"
+      },
+      "line" : 48,
+      "name" : "I confirm email address \"mike11@gmail.com\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "mike11@gmail.com",
+          "offset" : 25
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_confirm_email_address_details(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 506300,
+        "status" : "passed"
+      },
+      "line" : 49,
+      "name" : "I enter telephone \"000000000\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "000000000",
+          "offset" : 19
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_enter_telephone_details(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "I enter postcode \"AA11 2AA\" details",
+      "match" : {
+        "arguments" : [ {
+          "val" : "AA11 2AA",
+          "offset" : 18
+        } ],
+        "location" : "StepDefinitions.ApplicationForm.i_enter_postcode_details(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "I click continue",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.i_click_continue()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 554000,
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "the summary page is displayed",
+      "match" : {
+        "location" : "StepDefinitions.ApplicationForm.the_summary_page_is_displayed()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Form"
+    } ]
+  } ],
+  "name" : "Application form Test",
+  "description" : "",
+  "id" : "application-form-test",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Application_Form.feature",
+  "tags" : [ ]
+} ]
